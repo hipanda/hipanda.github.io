@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vasiliy Pugovkin. Designer</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=1048"/>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700&subset=cyrillic-ext,latin' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">	
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40080055-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+	<div class="inner-shlyapa">
+		<div class="container">
+		<a href="index.html">← Vasiliy Pugovkin</a>
+		<ul class="social">
+				<li><a href="http://twitter.com/pgvkn">twitter</a></li>
+				<li><a href="http://pgvkn.tumblr.com">tumblr</a></li>
+				<li>hipanda@gmail.com</li>
+			</ul>
+		</div>
+	</div>
+	<div class="container">
+		<h3>The Internet Map</h3>
+		<p>The Internet Map — non-commerce project, a Google Maps based app showing the structure of the WWW. </p>
+		<p>Project site: <a href="http://internet-map.net">internet-map.net</a></p>
+		<p>
+		<i>Like any other map, The Internet map is a scheme displaying objects’ relative position; but unlike real maps (e.g. the map of the Earth) or virtual maps (e.g. the map of Mordor), the objects shown on it are not aligned on a surface. Mathematically speaking, The Internet map is a bi-dimensional presentation of links between websites on the Internet. Every site is a circle on the map, and its size is determined by website traffic, the larger the amount of traffic, the bigger the circle. Users’ switching between websites forms links, and the stronger the link, the closer the websites tend to arrange themselves to each other.</i>
+		</p>
+		<img class="work-piece" src="img/inet-map.jpg">
+		<br><br>
+		<hr>
+		<h4>Works</h4>
+		<div id="links"></div>
+		<script>
+			$("#links").load("works.html");
+		</script>
+		<br>
+	</div>
+</body>
+</html>

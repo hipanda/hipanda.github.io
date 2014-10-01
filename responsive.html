@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vasiliy Pugovkin. Designer</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=1048"/>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700&subset=cyrillic-ext,latin' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40080055-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+	<div class="inner-shlyapa">
+		<div class="container">
+		<a href="index.html">← Vasiliy Pugovkin</a>
+		<ul class="social">
+				<li><a href="http://twitter.com/pgvkn">twitter</a></li>
+				<li><a href="http://pgvkn.tumblr.com">tumblr</a></li>
+				<li>hipanda@gmail.com</li>
+			</ul>
+		</div>
+	</div>
+	<div class="container">
+		<h3>8<sup>th</sup> task of Russian Design Cup 2012.</h3>
+		<div class="goal-description"> Task: design e-store website for mobile devices and desktops.
+		</div>
+		<br>
+		<p>First, I figured out width breakpoints: 240-319px, 320px, 640px, 768px, 1000px и 1200px.</p>
+		<h4>240 — 319px</h4>
+		<p>
+			The lightest version. For small screens and DPIs. And often it is about very slow connections and low performance. 
+		</p>
+		<p>
+			<strong>Important!</strong> For this, next (320–639) and full version different CSS files should be used and downloaded only on purpose according to corresponding @media-queries. It is an optimization for mobile users not to download unnecessary data. Each CSS contains the minimum required for the current user. We also have a special set of small lightweight thumbnails of goods photos.
+		</p>
+		<p>
+			In this case study listed screens show the all same page: Lego Star Wars Series.
+		</p>
+		<img class="work-piece" src="img/8-shop-240.jpg">
+
+		<h4>320 — 639px</h4>
+		<p>
+			Layout for average smartphones in portrait mode (2012). Modifications are obvious. Fonts get bigger, everything get wider. Goods and menu are centered. Pictures should not be small — store is designed not for pageviews, but to give customers the shortest way to choose and purchase.
+		</p>
+		<img class="work-piece" src="img/8-shop-320.jpg">
+		<h4>640 — 767px</h4>
+		<p>
+			Third CSS is engaged here. Starting from 640px items lay in two columns. Header just spreads horizontally. We can even show the full logo now! Menu becomes inlined. Search field reveals for instant access. Footer's two columns split in four. Increased font sizes and more whitespace.
+		</p>
+		<p>
+			This range was for small tablets and some of the smartphones landscaped.
+		</p>
+		<img class="work-piece" src="img/8-shop-640.jpg">
+		<h4>768 — 999px</h4>
+		<p>
+			Further horizontal spread, pretty clear. Now when there is spare width we can expand "Series" in a common left column.
+		</p>
+		<img class="work-piece" src="img/8-shop-768.jpg">
+		<h4>1000 — 1199px</h4>
+		<p>
+			Statistically here are average desktop and laptop users + some tablets in landscape mode. 1000px breakpoint can be debatable but as far as we build responsive layouts it is comfortable on any resolution.
+		</p>
+		<p>
+			Further we stop stretching the layout on every pixel — no need for that on big screens. Or stretching can even spoil experience for the users who use browsers in fullscreen mode on big displays.
+		</p>
+		<img class="work-piece" src="img/8-shop-1000.jpg">
+		<h4>1200px and more</h4>
+		<p>
+			Last breakpoint. Moving recomended items in it's own new column on the right. Adding more whitespace.
+		</p>
+		<p>
+			And that's it.
+		</p>
+		<img class="work-piece" src="img/8-shop-1200.jpg">
+		<br><br>
+		<hr>
+		<h4>Works</h4>
+		<div id="links"></div>
+		<script>
+			$("#links").load("works.html");
+		</script>
+		<br>
+	</div>
+</body>
+</html>
