@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vasiliy Pugovkin. Designer</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=1048"/>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700&subset=cyrillic-ext,latin' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40080055-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+	<div class="inner-shlyapa">
+		<div class="container">
+		<a href="index.html">← Vasiliy Pugovkin</a>
+		<ul class="social">
+				<li><a href="http://twitter.com/pgvkn">twitter</a></li>
+				<li><a href="http://pgvkn.tumblr.com">tumblr</a></li>
+				<li>hipanda@gmail.com</li>
+			</ul>
+		</div>
+	</div>
+	<div class="container">
+		<h3>Timeshift iOS App</h3>
+		<p>
+			Lots of people collaborate with their colleagues over the different time zones.
+		</p>
+		<div class="goal-description"> Task: Make an app which won’t let them get lost in time.
+		</div>
+		<p>
+			The main aid which the app provides is answering the question “What time is it now in London?”. And the other question comes with almost the same frequency—”What time will it be in Baselona when it’s 10:30 AM here?”
+			<br>
+			And finally it is not nescessary to use “here” as a starting point. You can just compare any locations, but you current location is default and it sets the current time.
+		</p>
+		<p>
+			The app has fit in one screen. Here you can see the time comparison for two locations:
+		</p>
+		<img class="work-piece" src="img/timeshift-01.jpg" width="719px" height="781px">
+		<p>
+			So what if you need to use not the current time but some other certain period?
+			<br>
+			There is a natural circular gesture for it—just spin the finger round the screen clockwise or counter-clockwise to arrange the need time, as like you spin the real clock hand. You’ll learn this gesture through the coachmarks on the first launch.
+		</p>
+		<img class="work-piece" src="img/timeshift-02.jpg" width="928px" height="784px">
+		<p>
+			Managing the locations is simple. It’s just a list where you can add items through the search and delete items with iOS standart swipe on an item gesture. By default it is filled with your current location and some sample cities.
+		</p>
+		<img class="work-piece" src="img/timeshift-03.jpg" width="940px" height="784px">
+
+		<br><br>
+		<hr>
+		<h4>Works</h4>
+		<div id="links"></div>
+		<script>
+			$("#links").load("works.html");
+		</script>
+		<br>
+	</div>
+</body>
+</html>

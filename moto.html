@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vasiliy Pugovkin. Designer</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=1048"/>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700&subset=cyrillic-ext,latin' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40080055-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+	<div class="inner-shlyapa">
+		<div class="container">
+		<a href="index.html">← Vasiliy Pugovkin</a>
+		<ul class="social">
+				<li><a href="http://twitter.com/pgvkn">twitter</a></li>
+				<li><a href="http://pgvkn.tumblr.com">tumblr</a></li>
+				<li>hipanda@gmail.com</li>
+			</ul>
+		</div>
+	</div>
+	<div class="container">
+		<h3>Motorola key-fob Android app</h3>
+		<h4>Input</h4>
+		<p>
+			Motorola has wireless sercurity key fobs (or tokens) which can be bound to your smartphone, so that you can use your device only if the the token is present. Like those in car security systems.
+			<br>
+			The problem is that firstly it should be calibrated and set up for specific distance key-points. You also can choose what action to take if your device and the token split further from each other.
+		</p>
+		<div class="goal-description"> Task: Make an in-app workflow to provide easy token setup.
+		</div>
+		<p>
+			The one thing to accept is that the first distance setting process, unfortu- nately, has to be done inevitably. There are technical constraints to measure certain distances to just skip any settings. So lets make it a pleasure for user to get through this.
+			<br>
+			The app greets the user with an invitation to make the first step straight away. We can skip long introductions and explanations here, cause the app was installed on one purpose, so we don’t need to lure user or something.
+			<br>
+			The approach was to use the most natural visual explanations posible to avoid some complex schemes and long paragraphs. I came to idea of using a camera view to make the process almost gamificated.
+		</p>
+		<img class="work-piece" src="img/moto-01.jpg">
+		<p>
+			Underlining "this size" and attaching the arrow can cause problems with localization, we can put it away and simply rephrase the hint in that case.
+		</p>
+		<img class="work-piece" src="img/moto-02.jpg">
+		<p>
+			Well, this kind of interface should be definitely user-tested. It seems really easy to use, though, some small pictograms may well improve it.
+		</p>
+		<img class="work-piece" src="img/moto-03.jpg">
+		<p>
+			And it’s done.<br>
+			Under the hood this distances are just the signal stregths which are lowering the further you move away. That is why this kind of a buffer between two keypoints is needed—signals are unstable and depend on the environment.
+			<br>
+			Some actions are bound to entering the secure distance (for example, unlocking the phone) and some to leaving the insecure (for example, locking the phone or sending a notification).
+			<br>
+			So we don’t need the fine measures. We just need the correlation of signal strengths. 
+		</p>
+
+		<br><br>
+		<hr>
+		<h4>Works</h4>
+		<div id="links"></div>
+		<script>
+			$("#links").load("works.html");
+		</script>
+		<br>
+	</div>
+</body>
+</html>
