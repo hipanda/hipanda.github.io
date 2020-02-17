@@ -14,6 +14,11 @@ p {
 	max-width: 700px;
 }
 
+.work-thumb img {
+	width: 200px;
+	height: 200px;
+}
+
 .work-thumb p {
 	font-size: 15px;
 	line-height: 20px;
@@ -69,19 +74,27 @@ a:hover {
 .container {
 	margin: 0 auto;
 	width: 1000px;
-	padding-top: 30px;
+}
+
+.works {
+	padding-top: 18px;
+}
+
+h1 {
+	margin-bottom: -16px;
 }
 
 .shlyapa {
-	padding-left: 20px;
-	height: 300px;
-	color: #fff;
-	background: url(img/me.jpg);
+	padding-left: 42px;
+	height: 90px;
+	color: #111111;
+	/* background: url(img/me.jpg); */
 	background-size: cover;
 }
 
-.shlyapa .container p {
-	font-size: 20px;
+.shlyapa .container li {
+	font-size: 16px;
+	color: #79829c;
 }
 
 .shlyapa .container strong {
@@ -94,7 +107,7 @@ a:hover {
 }
 
 .inner-shlyapa, .shlyapa {
-	border-bottom: 3px solid #387df0;
+	border-bottom: 2px solid #f1f1f1;
 }
 
 .inner-shlyapa {
@@ -109,7 +122,7 @@ a:hover {
 .inner-shlyapa .container ul.social {
 	float: right;
 	font-weight: normal;
-	margin-top: 0;
+	margin-top: 0px;
 }
 
 .goal-description {
@@ -142,19 +155,14 @@ a.work-list {
 	border: 2px solid #fff;
 }
 
-.work-thumb:hover {
-	border-radius: 3px;
-}
-
 .work-thumb-comment p {
 	line-height: 24px;
 }
 
 .work-thumb:hover {
-	border: 2px solid #aaa;
-	box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
-	-moz-box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
-	-webkit-box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+	box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0px 6px 16px rgba(0,0,0,0.2);
 }
 
 .work-comment {
