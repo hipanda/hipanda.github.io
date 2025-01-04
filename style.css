@@ -1,7 +1,7 @@
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Merriweather Sans', sans-serif;
 	font-size: 18px;
-	font-weight: 400;
+	font-weight: 360;
 	color: #333;
 	line-height: 36px;
 	margin: 0px;
@@ -22,7 +22,7 @@ p {
 .work-thumb p {
 	font-size: 15px;
 	line-height: 20px;
-	font-weight: 700;
+	font-weight: 800;
 	letter-spacing: 0.08em;
 	margin: 0px;
 	text-transform: uppercase;
@@ -31,7 +31,7 @@ p {
 .work-thumb p.subtitle {
 	font-size: 13px;
 	line-height: 20px;
-	font-weight: 400;
+	font-weight: 360;
 	text-transform: none;
 	letter-spacing: 0.01em;
 	color: #aaa;
